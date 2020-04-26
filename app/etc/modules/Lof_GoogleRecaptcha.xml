@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * NOTICE OF LICENSE
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+ * WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ * IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+ * THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ *
+ * @category Lof
+ * @package Lof_Google_Recaptcha
+ * @author Landofcoder <landofcoder@gmail.com>
+ * @copyright Copyright (c) 2020, Landofcoder
+ * @license http://opensource.org/licenses/MIT
+ */
+-->
+<config>
+    <modules>
+        <Lof_GoogleRecaptcha>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Customer />
+                <Mage_Adminhtml />
+            </depends>
+        </Lof_GoogleRecaptcha>
+    </modules>
+</config>
